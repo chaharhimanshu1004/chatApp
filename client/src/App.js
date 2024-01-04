@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path='/'  element={<Join></Join>} ></Route>
-          <Route exact path='/chat' element={<Chat></Chat>} ></Route>
+          <Route  path='/chat' element={<Chat></Chat>} ></Route>
           
         </Routes>
       </BrowserRouter>

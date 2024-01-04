@@ -26,10 +26,21 @@ io.on("connection",(socket)=>{
     })
     socket.on('disconnect',()=>{
         socket.broadcast.emit('leave',{user:'Admit',message:`${users[socket.id]} has left the chat!!`})
-        console.log('User has left the chat !!')
+        console.log(`${users[socket.id]} has left the chat!!`)
+    })
+
+
+
+    //  -------------   sending and recieving message thing here   ----------
+
+    socket.on('message',({message,id})=>{
+        // broadcast -- everyone except jisne bheja
+        // socket.emit -- jis user ne bheja sirf user
+        // io.emit -- sbko hi bhejdo -- user plus everyone
+        io.emit('sendMessage',{user:users[id],message,id});
     })
     
-    // broadcast means jisne join kiya usey chodke baaki sbpe msg phuchega...
+
    
 })
 
