@@ -17,3 +17,7 @@ Backend: Node.js
 Communication: Websockets
 <img width="1440" alt="Screenshot 2024-01-04 at 8 39 38 PM" src="https://github.com/chaharhimanshu1004/chatApp/assets/106223984/5a87b6dd-d189-4253-85be-fa52ec603e83">
 
+<img width="1440" alt="Screenshot 2024-01-04 at 8 44 11 PM" src="https://github.com/chaharhimanshu1004/chatApp/assets/106223984/b42b0739-d46f-4b69-bda4-46b4b8442f7f">
+
+
+<img width="1440" alt="Screenshot 2024-01-04 at 8 44 14 PM" src="https://github.com/chaharhimanshu1004/chatApp/assets/106223984/79993b52-bb30-44fa-b3e5-e50b454fc7a2">
