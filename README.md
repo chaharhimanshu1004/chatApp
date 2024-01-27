@@ -5,7 +5,7 @@ The application ensures a seamless and interactive chatting experience, allowing
 Features
 Real-time Communication
 The core feature of this app is its real-time communication capabilities, powered by websockets.
-Users can exchange messages with each other instantly, creating a dynamic and responsive chat environment.
+Users can exchange messages with each other instantly, creating a dynamic and responsive chat environment. 
 
 Responsive Design
 The frontend of the application is crafted with React.js, guaranteeing a responsive and user-friendly interface across various devices. 
